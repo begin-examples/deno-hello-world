@@ -12,7 +12,7 @@ Deploy your own clone of this app to Begin!
 
 ## Getting started
 
-- Initialize the your deps: `npm install`
+- Initialize your deps: `npm install`
 - Start the local dev server: `npm start`
 
 
