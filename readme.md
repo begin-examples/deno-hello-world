@@ -1,4 +1,4 @@
-# Begin basic Hello World! app (Deno)
+<img src="https://static.begin.app/deno-hello-world/readme-banner.png" width="502">
 
 $BADGE
 
