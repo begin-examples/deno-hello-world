@@ -82,6 +82,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+          
+      - uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
 
       - name: Env
         run: |
