@@ -2,7 +2,9 @@
 deno-hello
 
 @http
-get /
+/
+  method get
+  src .
 
 @tables
 data
