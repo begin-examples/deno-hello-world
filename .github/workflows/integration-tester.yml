@@ -99,7 +99,7 @@ jobs:
           VER=`npm --version`; echo "npm ver:    $VER"
 
       - name: Look for needed runtimes
-        run: echo "CONFIG_RUNTIMES=$(cat .github/workflows/integration-tests/generated/runtime-config.json | jq '.runtimes')" >> $GITHUB_ENV
+        run: echo "CONFIG_RUNTIMES=$(cat .github/workflows/integration-tests/generated/runtime-config.json | jq '.runtime')" >> $GITHUB_ENV
 
       - name: Add Deno if needed
         #TODO: double quotes should be fixed in the check for this variable.
